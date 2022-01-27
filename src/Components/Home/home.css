@@ -1,0 +1,119 @@
+.news {
+    width: 85%;
+    padding: 8px 0;
+}
+.news h1 {
+    font-size: 34px;
+    line-height: 47px;
+    padding: 0px;
+    color: #fff;
+}
+.bg-light{
+    background: #fff !important;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #3bb19b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    box-shadow: 0 0 6px darkgrey;
+}
+.update {
+    width: 15%;
+    background: #082161;
+    color: #fff;
+    padding: 17px 22px;
+    text-align: center;
+}
+.important-list {
+    padding: 20px 10px;
+}
+.important-list h2 {
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+}
+.heading-section {
+    background: #FF236C;
+}
+.link {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    color: #444;
+    line-height: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 24px;
+}
+.side-bar {
+    background: #aba6f5;
+    height: 309px;
+}
+/* link color  */
+.color-1{
+    color: #A5C347 !important;
+    font-weight: 500 !important;
+}
+.color-2{
+    color: #FF236C !important;
+}
+.color-3{
+    color: #00D0DA !important;
+}
+.color-4{
+    color: #F0AA00 !important;
+}
+.color-5{
+    color: #FF236C !important;
+    font-weight: 500 !important;
+}
+.carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    height: 400px !important;
+}
+.carousel .thumb.selected, .carousel .thumb:hover {
+    border: 3px solid #ff236c;
+}
+body{
+    overflow: scroll;
+}
+@media only screen and (max-width: 600px) {
+    .update {
+        width: 25%;
+        padding: 20px 0;
+    }
+    .navbar-brand img {
+        width: 100%;
+        height: 57px;
+    }
+    .show {
+        background: black;
+        overflow: hidden;
+    }
+    li.nav-item {
+        text-align: center;
+    }
+    .news h1 {
+        font-size: 25px;
+        line-height: 40px;
+        padding: 0px;
+        color: #080707;
+    }
+    .news {
+        width: 85%;
+        padding: 8px 0;
+        padding-top: 15px;
+    }
+   
+  }
